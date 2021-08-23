@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    background-color: rgb(12, 12, 12);
+    width: auto;
+}
+
+/*starts code  nav bar*/
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron' ;
+    font-weight: bold ;
+}
+
+a:hover {
+    /*code for change color selector on pointer*/
+    background-color: rgb(211, 209, 209);
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: none;
+    background: linear-gradient(180deg, rgb(239, 241, 241) 0%, rgb(165, 164, 165) 42%, rgb(41, 40, 40) 100%);
+    padding: 15px 0px;
+    list-style: none;
+    /*estilo para quitar los puntos de descrip de bar*/
+}
+
+/*secc para manipular imagen la mando llamar com .img */
+
+#pentagon {
+    position: relative;
+    top: 105pt;
+    
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+            width: 300px;
+            height: 300px;
+            border: 4px dotted black;
+}
+
+#img1 {
+    width: 100px;
+    height: 200px;
+    
+
+}
+
+#name1 {    /*propierty for manipulate the divname*/
+    position: relative;
+    top: -30vh;
+    right: -35vw;
+    font-family: 'Orbitron', sans-serif;
+    padding: 30px;
+    width: 60%;
+    height: 40%;
+    color: #cfcfce;
+}
+
+#intro {
+    position: relative;
+    top: -20vh;
+    right: -30vw;
+    width: 14%;
+    height: 30%;
+}
+
+#home {
+    position: relative;
+    top: -42vh;
+    right: -50vw;
+    width: 14%;
+    height: 30%;
+}
+
+#resume {
+    position: relative;
+    top: -64vh;
+    right: -70vw;
+    width: 14%;
+    height: 30%;
+}
+
+#portafolio {
+    position: relative;
+    top: -50vh;
+    right: -30vw;
+    width: 14%;
+    height: 30%;
+}
+
+#videos {
+    position: relative;
+    top: -72vh;
+    right: -50vw;
+    width: 14%;
+    height: 30%;
+}
+
+#contact {
+    position: relative;
+    top: -94vh;
+    right: -71vw;
+    width: 14%;
+    height: 30%;
+}
+
+#lblintro {
+    font-family: "Orbitron", sans-serif;
+    flex-direction: column;
+    color: #cfcfce;
+}
+
+#lblhome {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#lblresume {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#lblportafolio {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#lblvideo {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#footer1 {
+    /*secc para man. footer*/
+    justify-content: space-evenly;
+    color: #cfcfce;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    padding: 20px;
+}
